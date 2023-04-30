@@ -17,17 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dnn-Cg-Bp4">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <rect key="frame" x="0.0" y="88" width="374" height="725"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mvu-xC-aKd">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="774"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="818"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="men" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tjf-yd-Eem">
-                                                <rect key="frame" x="87" y="12" width="200" height="100"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="veM-Eb-rkp"/>
-                                                </constraints>
-                                            </imageView>
                                             <textField toolTip="Enter Email" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="12" background="doc.text.viewfinder" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iZF-QY-7bz">
                                                 <rect key="frame" x="87" y="137" width="200" height="40"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -37,6 +31,12 @@
                                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                                             </textField>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="men" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tjf-yd-Eem">
+                                                <rect key="frame" x="87" y="12" width="200" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="veM-Eb-rkp"/>
+                                                </constraints>
+                                            </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a8W-zV-moh">
                                                 <rect key="frame" x="87" y="189" width="200" height="40"/>
                                                 <constraints>
@@ -123,6 +123,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TCV-DI-7sw"/>
+                    <connections>
+                        <outlet property="button1" destination="N5b-Lw-ZIi" id="yJL-Pm-792"/>
+                        <outlet property="enterEmail" destination="iZF-QY-7bz" id="uoA-uX-aTZ"/>
+                        <outlet property="enterPassword" destination="a8W-zV-moh" id="6FW-8Q-5eo"/>
+                        <outlet property="selectImage" destination="tjf-yd-Eem" id="rsk-4g-7k7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
