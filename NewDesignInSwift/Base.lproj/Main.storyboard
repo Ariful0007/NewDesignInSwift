@@ -12,14 +12,14 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NewDesignInSwift" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dnn-Cg-Bp4">
                                 <rect key="frame" x="0.0" y="44" width="374" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mvu-xC-aKd">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mvu-xC-aKd">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="818"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="men" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tjf-yd-Eem">
@@ -28,7 +28,7 @@
                                                     <constraint firstAttribute="height" constant="100" id="veM-Eb-rkp"/>
                                                 </constraints>
                                             </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" toolTip="Enter Email" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="12" background="doc.text.viewfinder" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iZF-QY-7bz">
+                                            <textField toolTip="Enter Email" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="12" background="doc.text.viewfinder" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iZF-QY-7bz">
                                                 <rect key="frame" x="87" y="137" width="200" height="40"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
