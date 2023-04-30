@@ -16,6 +16,8 @@
 		25ECD04C29FE29D000488C25 /* NewDesignInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ECD04B29FE29D000488C25 /* NewDesignInSwiftTests.swift */; };
 		25ECD05629FE29D000488C25 /* NewDesignInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ECD05529FE29D000488C25 /* NewDesignInSwiftUITests.swift */; };
 		25ECD05829FE29D000488C25 /* NewDesignInSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ECD05729FE29D000488C25 /* NewDesignInSwiftUITestsLaunchTests.swift */; };
+		25ECD06729FE528400488C25 /* MySecondView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25ECD06629FE528400488C25 /* MySecondView.storyboard */; };
+		25ECD06929FE591C00488C25 /* Testing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25ECD06829FE591C00488C25 /* Testing.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		25ECD05129FE29D000488C25 /* NewDesignInSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewDesignInSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25ECD05529FE29D000488C25 /* NewDesignInSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDesignInSwiftUITests.swift; sourceTree = "<group>"; };
 		25ECD05729FE29D000488C25 /* NewDesignInSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDesignInSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25ECD06629FE528400488C25 /* MySecondView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MySecondView.storyboard; sourceTree = "<group>"; };
+		25ECD06829FE591C00488C25 /* Testing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Testing.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				25ECD03D29FE29D000488C25 /* Assets.xcassets */,
 				25ECD03F29FE29D000488C25 /* LaunchScreen.storyboard */,
 				25ECD04229FE29D000488C25 /* Info.plist */,
+				25ECD06629FE528400488C25 /* MySecondView.storyboard */,
+				25ECD06829FE591C00488C25 /* Testing.storyboard */,
 			);
 			path = NewDesignInSwift;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 				25ECD04129FE29D000488C25 /* LaunchScreen.storyboard in Resources */,
 				25ECD03E29FE29D000488C25 /* Assets.xcassets in Resources */,
 				25ECD03C29FE29CF00488C25 /* Main.storyboard in Resources */,
+				25ECD06729FE528400488C25 /* MySecondView.storyboard in Resources */,
+				25ECD06929FE591C00488C25 /* Testing.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
